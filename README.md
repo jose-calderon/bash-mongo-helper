@@ -14,6 +14,7 @@ db -r                   Restore the database.
 
 ## Restore:
 `db restore --uri="mongodb://test:test@localhost:27017/cfw-collab-mongodb" ~/projects/dbbakups/db_1578695675/dump`
+
 `db restore --host=localhost --port=27017 --authenticationDatabase=collab-mongodb --username=test --password=test db_1578695633/`
 
 ## Migrate:
